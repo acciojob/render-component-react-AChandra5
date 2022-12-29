@@ -1,11 +1,10 @@
 import React, {Component, useState} from "react";
-import Component from "./Component";
 import '../styles/App.css';
 
 const App = () => {
   return (
     <div id="main">
-      <Component />
+    <div id="root">"I am learning React. My life is getting better. "</div>
     </div>
   )
 }
